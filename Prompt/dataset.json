@@ -1,0 +1,34 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "75 kg",
+      "goal": "Marathon training - high-endurance athlete needing 3000+ calories with carbohydrate loading and meal timing around training",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 3000+ calories with carbohydrates comprising 55-65% of total calories",
+      "Includes specific meal timing around training windows (pre-workout, during, and post-workout nutrition)",
+      "Presented as a compact, single-day plan with 4-5 meals/snacks",
+      "All meals are practical and realistic for an athlete"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and sustained energy, including specific meal timing around training windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Maximize muscle recovery and strength performance with strategic meal timing around training",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan contains minimum 150g protein distributed across all meals",
+      "Includes pre-workout and post-workout meals strategically timed for performance and recovery",
+      "Provides balanced macronutrients (carbohydrates for energy, fats for hormone production)",
+      "Compact format with 4-5 meals listed for a single day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) requiring balanced macronutrients with high protein intake (150+ grams) and meals strategically timed for muscle recovery and performance"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Training Athlete\n\n**Calorie Target:** Approximately 3200 calories\n**Macronutrient Breakdown:** Protein (130g), Fat (85g), Carbs (420g)\n\n---\n\n## Meal Plan:\n\n**Breakfast (7:00 AM):** Oatmeal (100g dry weight) with banana (150g), honey (20g), and almonds (20g). Whole milk (240ml).\n\nProtein: 18g, Fat: 12g, Carbs: 95g\n\n**Pre-Training Snack (9:30 AM):** White bread (80g) with peanut butter (25g) and jam (15g). Sports drink (500ml, 6% carbs).\n\nProtein: 10g, Fat: 10g, Carbs: 85g\n\n**Post-Training Meal (12:30 PM):** Grilled chicken breast (150g), white rice (200g cooked), steamed carrots (100g), and olive oil (10ml).\n\nProtein: 45g, Fat: 15g, Carbs: 95g\n\n**Afternoon Snack (3:00 PM):** Greek yogurt (200g, plain), granola (40g), and blueberries (80g).\n\nProtein: 20g, Fat: 8g, Carbs: 55g\n\n**Dinner (6:30 PM):** Baked salmon (140g), sweet potato (200g baked), steamed broccoli (120g), and olive oil (10ml).\n\nProtein: 32g, Fat: 15g, Carbs: 60g\n\n**Evening Snack (8:30 PM):** Bagel (80g) with honey (15g) and banana (100g).\n\nProtein: 8g, Fat: 2g, Carbs: 70g\n\n---\n\n**Notes:** This plan emphasizes carbohydrate loading essential for marathon training, with strategic meal timing around workouts. Post-training meals include both carbs and protein for optimal recovery. All foods are budget-friendly and support endurance performance.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "75 kg",
+        "goal": "Marathon training - high-endurance athlete needing 3000+ calories with carbohydrate loading and meal timing around training",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan totals 3000+ calories with carbohydrates comprising 55-65% of total calories",
+        "Includes specific meal timing around training windows (pre-workout, during, and post-workout nutrition)",
+        "Presented as a compact, single-day plan with 4-5 meals/snacks",
+        "All meals are practical and realistic for an athlete"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and sustained energy, including specific meal timing around training windows"
+    },
+    "score": 7,
+    "reasoning": "The solution successfully meets all three mandatory requirements with clear presentation of daily totals, macronutrient breakdown, and detailed meals with portions and timing. The meal plan is practical and realistic for a marathon athlete. However, the carbohydrate percentage falls marginally short of the 55-65% target range at 52.5%, which represents a minor but measurable deviation from secondary criteria. The plan includes 6 meals rather than the requested 4-5, though this provides better training nutrition coverage. The strategic timing around workouts is well-executed with appropriate pre-, during, and post-workout nutrition."
+  },
+  {
+    "output": "# One-Day Meal Plan for Muscle Recovery and Strength Performance\n\n**Calorie Target:** Approximately 3200 calories\n**Macronutrient Breakdown:** Protein (180g), Fat (95g), Carbs (400g)\n\n---\n\n## **Meal Plan:**\n\n**Breakfast (7:00 AM):** Oatmeal (100g dry weight) with whole milk (240ml), 2 whole eggs (100g), banana (120g), and honey (15g).\n\nProtein: 25g, Fat: 16g, Carbs: 75g\n\n---\n\n**Mid-Morning Snack (10:00 AM):** Greek yogurt (200g, full-fat) with granola (40g) and blueberries (80g).\n\nProtein: 20g, Fat: 8g, Carbs: 50g\n\n---\n\n**Pre-Workout Snack (12:30 PM):** Rice cakes (50g) with peanut butter (25g) and apple (150g).\n\nProtein: 10g, Fat: 12g, Carbs: 55g\n\n---\n\n**Lunch (1:00 PM - Post-Workout):** Grilled chicken breast (180g), brown rice (150g cooked), steamed broccoli (200g), and olive oil (15ml).\n\nProtein: 50g, Fat: 15g, Carbs: 95g\n\n---\n\n**Afternoon Snack (4:00 PM):** Protein shake with whey powder (30g), whole milk (240ml), banana (100g), and almond butter (20g).\n\nProtein: 35g, Fat: 18g, Carbs: 65g\n\n---\n\n**Dinner (7:00 PM):** Baked salmon (160g), sweet potato (200g), mixed green salad (150g) with olive oil dressing (10ml).\n\nProtein: 35g, Fat: 20g, Carbs: 50g\n\n---\n\n**Evening Snack (9:30 PM):** Cottage cheese (150g) with almonds (25g) and honey (10g).\n\nProtein: 30g, Fat: 16g, Carbs: 15g\n\n---\n\nThis meal plan strategically times carbohydrates and protein around training to maximize muscle recovery, fuel performance, and support strength development.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "85 kg",
+        "goal": "Maximize muscle recovery and strength performance with strategic meal timing around training",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan contains minimum 150g protein distributed across all meals",
+        "Includes pre-workout and post-workout meals strategically timed for performance and recovery",
+        "Provides balanced macronutrients (carbohydrates for energy, fats for hormone production)",
+        "Compact format with 4-5 meals listed for a single day"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength/power athlete (weightlifter) requiring balanced macronutrients with high protein intake (150+ grams) and meals strategically timed for muscle recovery and performance"
+    },
+    "score": 7,
+    "reasoning": "The solution successfully meets all three mandatory requirements with clear daily caloric total, detailed macronutrient breakdown, and specific meals with exact portions and times. It exceeds the protein requirement (180g vs 150g minimum) and includes strategic pre/post-workout nutrition. However, it violates the secondary criterion of being 'compact' with 4-5 meals by including 7 eating occasions. The format is well-organized and the nutritional strategy is sound for the stated goal, but the structure deviates from the conciseness requested in the original task description."
+  }
+]
